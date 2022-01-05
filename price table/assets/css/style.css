@@ -1,0 +1,125 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background-color:#2C3C49;
+	font-family:Arial;
+	box-sizing:border-box;
+}
+
+.tableprice{
+	width: 140px;
+	height: 370px;
+	background-color:#2C3C49;
+	margin:5% auto 0 auto;
+	border: 1px solid #3C4C59;
+	float:left;
+/* display:inline-block; */
+transition:0.9s;
+}
+.tableprice h5{
+	font-size:13px;
+	color:white;
+	text-align:center;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.fa-grip-lines{
+	margin-left:60px;
+}
+.check{
+	color:#354552;
+}
+.price{
+	font-size: 40px;
+	font-weight:300;
+	color:white;
+	text-align:center;
+}
+.date{
+	font-size:11px;
+	color:#5E6C77;
+	text-align:center;
+}
+.orange{
+	color:#436DCC;
+	font-size: 11px;
+	text-align:center;
+	margin-left: 10px;
+}
+.orange:hover{
+	color:#F05D29;
+	cursor:pointer;
+}
+.white{
+	color:white;
+	font-size: 11px;
+	text-align:center;
+	margin-left: 10px; 
+}
+.set{
+	text-align:center;
+	padding:6px;
+}
+.set:nth-child(even){
+	background-color:#283643;
+}
+
+.white:hover{
+	color:#F2FCFD;
+	cursor:pointer;
+}
+.btn{
+	width:100px;
+	background-color:#4C5A65;
+	color:white;
+	font-size:8px;
+	padding:10px;
+	text-align:center;
+	outline:none;
+	border-radius: 15px;
+	border-style:none;
+	margin-left:18px;
+	
+}
+.btn:hover{
+	background-color:#F05D29;
+	cursor:pointer;
+}
+.tableprice:hover{
+	border: 1px solid #3A93BF;
+	transform: scale(1.1);
+	z-index:1;
+}
+
+.tableprice:hover.orange{
+	color:#F05D29;
+	cursor:pointer;
+}
+.tableprice:hover.btn{
+	background-color:#F05D29;
+	cursor:pointer;
+}
+.fa-bookmark{
+	font-size:18px;
+	float:right;
+}
+.checked{
+
+	color:#F65D1A;
+}
+.not-checked{
+	outline:none;
+	color:#2C3C49;
+}
+
+
+
+
+
+
+
+
+
